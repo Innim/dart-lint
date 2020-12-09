@@ -3,7 +3,20 @@ analyzer:
   strong-mode:
     implicit-casts: false
     implicit-dynamic: false
+  # See all errors at https://github.com/dart-lang/sdk/blob/master/pkg/analyzer/lib/error/error.dart
+  errors:    
+    # INFO -> WARNING
 
+    # Required parameter is missing.
+    missing_required_param: warning
+
+    # Function has a return type, but doesn't end with a return statement.
+    missing_return: warning
+
+    # INFO -> IGNORE
+    
+    # Allow TODOs
+    todo: ignore
 # See all rules at https://dart-lang.github.io/linter/lints/index.html
 linter:
   rules:
