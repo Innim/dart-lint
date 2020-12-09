@@ -7,3 +7,6 @@ issue_tracker: https://github.com/Innim/dart-lint/issues
 
 environment:
   sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  pedantic: ^1.9.2
