@@ -1,3 +1,4 @@
+## [0.1.1] - 2020-12-11
 
 * Add link for every rule.
 * Enables rules: `avoid_web_libraries_in_flutter`, `avoid_bool_literals_in_conditional_expressions`, `avoid_catching_errors`, 
