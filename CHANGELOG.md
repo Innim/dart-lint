@@ -1,3 +1,7 @@
+## [0.1.1+1] - 2020-12-11
+
+* Update package desciption.
+
 ## [0.1.1] - 2020-12-11
 
 * Add link for every rule.
