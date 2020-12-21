@@ -387,12 +387,12 @@ linter:
 
     # Define case clauses for all constants in enum-like classes.
     # https://dart-lang.github.io/linter/lints/exhaustive_cases.html
-    # - exhaustive_cases
+    - exhaustive_cases
 
     # Name source files using lowercase_with_underscores.
     # [effective dart]
     # https://dart-lang.github.io/linter/lints/file_names.html
-    # - file_names
+    - file_names
 
     # Use Flutter TODO format: // TODO(username): message, https://URL-to-issue.
     # https://dart-lang.github.io/linter/lints/flutter_style_todos.html
@@ -401,7 +401,7 @@ linter:
     # Don't import implementation files from another package.
     # [flutter] [effective dart]
     # https://dart-lang.github.io/linter/lints/implementation_imports.html
-    # - implementation_imports
+    - implementation_imports
 
     # Join return statement with assignment when possible.
     # https://dart-lang.github.io/linter/lints/join_return_with_assignment.html

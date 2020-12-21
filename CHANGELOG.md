@@ -1,3 +1,5 @@
+* Enabled rules: `exhaustive_cases`, `file_names`, `implementation_imports`.
+
 ## [0.1.1+1] - 2020-12-11
 
 * Update package desciption.
