@@ -1,3 +1,7 @@
+## [0.1.2+1] - 2020-12-22
+
+* Readme: Fix version shield.
+
 ## [0.1.2] - 2020-12-22
 
 * Enabled rules: `exhaustive_cases`, `file_names`, `implementation_imports`, `join_return_with_assignment`,

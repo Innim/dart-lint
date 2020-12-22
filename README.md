@@ -1,6 +1,6 @@
 # innim_lint
 
-[![pub package](https://img.shields.io/pub/v/list_ext)](https://pub.dartlang.org/packages/innim_lint)
+[![pub package](https://img.shields.io/pub/v/innim_lint)](https://pub.dartlang.org/packages/innim_lint)
 
 This package contains analysis settings for Flutter/Dart projects and packages by [Innim team](https://github.com/innim/).
 
