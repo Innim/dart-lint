@@ -1,4 +1,8 @@
-* Enabled rules: `exhaustive_cases`, `file_names`, `implementation_imports`.
+## [0.1.2] - 2020-12-22
+
+* Enabled rules: `exhaustive_cases`, `file_names`, `implementation_imports`, `join_return_with_assignment`,
+`leading_newlines_in_multiline_strings`, `missing_whitespace_between_adjacent_strings`, `no_default_cases`,
+`no_runtimeType_toString`, `non_constant_identifier_names`.
 
 ## [0.1.1+1] - 2020-12-11
 

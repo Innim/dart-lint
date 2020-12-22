@@ -402,14 +402,14 @@ linter:
     # [flutter] [effective dart]
     # https://dart-lang.github.io/linter/lints/implementation_imports.html
     - implementation_imports
-
+    
     # Join return statement with assignment when possible.
     # https://dart-lang.github.io/linter/lints/join_return_with_assignment.html
-    # - join_return_with_assignment
+    - join_return_with_assignment
 
     # Start multiline strings with a newline.
     # https://dart-lang.github.io/linter/lints/leading_newlines_in_multiline_strings.html
-    # - leading_newlines_in_multiline_strings
+    - leading_newlines_in_multiline_strings
 
     # Name libraries using lowercase_with_underscores.
     # [flutter] [pedantic] [effective dart]
@@ -428,21 +428,21 @@ linter:
 
     # Missing whitespace between adjacent strings.
     # https://dart-lang.github.io/linter/lints/missing_whitespace_between_adjacent_strings.html
-    # - missing_whitespace_between_adjacent_strings
+    - missing_whitespace_between_adjacent_strings
 
     # No default cases.
     # (experimental)
     # https://dart-lang.github.io/linter/lints/no_default_cases.html
-    # - no_default_cases
+    - no_default_cases
 
     # Avoid calling toString() on runtimeType.
     # https://dart-lang.github.io/linter/lints/no_runtimeType_toString.html
-    # - no_runtimeType_toString
+    - no_runtimeType_toString
 
     # Name non-constant identifiers using lowerCamelCase.
     # [flutter] [effective dart]
     # https://dart-lang.github.io/linter/lints/non_constant_identifier_names.html
-    # - non_constant_identifier_names
+    - non_constant_identifier_names
 
     # Don't use null check on a potentially nullable type parameter.
     # (experimental)
