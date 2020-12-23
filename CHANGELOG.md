@@ -1,8 +1,15 @@
+## [0.1.3+1] - 2020-12-23
+
+* Disabled rule `prefer_if_elements_to_conditional_expressions`: it's not working well.
+* Fix changelog.
+
 ## [0.1.3] - 2020-12-23
 
 * Enabled rules: `only_throw_errors`, `overridden_fields`, `package_prefixed_library_names`, `parameter_assignments`, 
-`prefer_adjacent_string_concatenation`, `prefer_asserts_in_initializer_lists`, `prefer_const_constructors`,
-`prefer_const_constructors_in_immutables`, `prefer_const_declarations`.
+`prefer_asserts_in_initializer_lists`, `prefer_const_constructors`, `prefer_const_constructors_in_immutables`, 
+`prefer_const_declarations`, `prefer_const_literals_to_create_immutables`, `prefer_final_in_for_each`,
+`prefer_final_locals`, `prefer_function_declarations_over_variables`, `prefer_if_elements_to_conditional_expressions`,
+`prefer_initializing_formals`.
 
 ## [0.1.2+1] - 2020-12-22
 

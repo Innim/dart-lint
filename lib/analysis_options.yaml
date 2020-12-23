@@ -586,7 +586,7 @@ linter:
 
     # Prefer if elements to conditional expressions where possible.
     # https://dart-lang.github.io/linter/lints/prefer_if_elements_to_conditional_expressions.html
-    - prefer_if_elements_to_conditional_expressions
+    # - prefer_if_elements_to_conditional_expressions
 
     # Prefer using if null operators.
     # [pedantic]
