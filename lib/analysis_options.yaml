@@ -466,11 +466,11 @@ linter:
 
     # Only throw instances of classes extending either Exception or Error.
     # https://dart-lang.github.io/linter/lints/only_throw_errors.html
-    # - only_throw_errors
+    - only_throw_errors
 
     # Don't override fields.
     # https://dart-lang.github.io/linter/lints/overridden_fields.html
-    # - overridden_fields
+    - overridden_fields
 
     # Provide doc comments for all public APIs.
     # [flutter] [effective dart]
@@ -480,11 +480,11 @@ linter:
     # Prefix library names with the package name and a dot-separated path.
     # [flutter]
     # https://dart-lang.github.io/linter/lints/package_prefixed_library_names.html
-    # - package_prefixed_library_names
+    - package_prefixed_library_names
 
     # Don't reassign references to parameters of functions or methods.
     # https://dart-lang.github.io/linter/lints/parameter_assignments.html
-    # - parameter_assignments
+    - parameter_assignments
 
     # Use adjacent strings to concatenate string literals.
     # [pedantic] [effective dart]
@@ -493,7 +493,7 @@ linter:
 
     # Prefer putting asserts in initializer list.
     # https://dart-lang.github.io/linter/lints/prefer_asserts_in_initializer_lists.html
-    # - prefer_asserts_in_initializer_lists
+    - prefer_asserts_in_initializer_lists
 
     # Prefer asserts with message.
     # https://dart-lang.github.io/linter/lints/prefer_asserts_with_message.html
@@ -501,7 +501,8 @@ linter:
 
     # Prefer using a boolean as the assert condition.
     # https://dart-lang.github.io/linter/lints/prefer_bool_in_asserts.html
-    # - prefer_bool_in_asserts (deprecated)
+    # (deprecated)
+    # - prefer_bool_in_asserts
 
     # Use collection literals when possible.
     # [pedantic] [effective dart]
@@ -515,19 +516,19 @@ linter:
 
     # Prefer const with constant constructors.
     # https://dart-lang.github.io/linter/lints/prefer_const_constructors.html
-    # - prefer_const_constructors
+    - prefer_const_constructors
 
     # Prefer declaring const constructors on @immutable classes.
     # https://dart-lang.github.io/linter/lints/prefer_const_constructors_in_immutables.html
-    # - prefer_const_constructors_in_immutables
+    - prefer_const_constructors_in_immutables
 
     # Prefer const over final for declarations.
     # https://dart-lang.github.io/linter/lints/prefer_const_declarations.html
-    # - prefer_const_declarations
+    - prefer_const_declarations
 
     # Prefer const literals as parameters of constructors on @immutable classes.
     # https://dart-lang.github.io/linter/lints/prefer_const_literals_to_create_immutables.html
-    # - prefer_const_literals_to_create_immutables
+    - prefer_const_literals_to_create_immutables
 
     # Prefer defining constructors instead of static methods to create instances.
     # https://dart-lang.github.io/linter/lints/prefer_constructors_over_static_methods.html
@@ -558,11 +559,11 @@ linter:
 
     # Prefer final in for-each loop variable if reference is not reassigned.
     # https://dart-lang.github.io/linter/lints/prefer_final_in_for_each.html
-    # - prefer_final_in_for_each
+    - prefer_final_in_for_each
 
     # Prefer final for variable declarations if they are not reassigned.
     # https://dart-lang.github.io/linter/lints/prefer_final_locals.html
-    # - prefer_final_locals
+    - prefer_final_locals
 
     # Prefer for elements when building maps from iterables.
     # [pedantic]
@@ -576,7 +577,7 @@ linter:
     # Use a function declaration to bind a function to a name.
     # [effective dart]
     # https://dart-lang.github.io/linter/lints/prefer_function_declarations_over_variables.html
-    # - prefer_function_declarations_over_variables
+    - prefer_function_declarations_over_variables
 
     # Prefer generic function type aliases.
     # [pedantic] [effective dart]
@@ -585,7 +586,7 @@ linter:
 
     # Prefer if elements to conditional expressions where possible.
     # https://dart-lang.github.io/linter/lints/prefer_if_elements_to_conditional_expressions.html
-    # - prefer_if_elements_to_conditional_expressions
+    - prefer_if_elements_to_conditional_expressions
 
     # Prefer using if null operators.
     # [pedantic]
@@ -595,7 +596,7 @@ linter:
     # Use initializing formals when possible.
     # [effective dart]
     # https://dart-lang.github.io/linter/lints/prefer_initializing_formals.html
-    # - prefer_initializing_formals
+    - prefer_initializing_formals
 
     # Inline list item declarations where possible.
     # https://dart-lang.github.io/linter/lints/prefer_inlined_adds.html

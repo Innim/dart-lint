@@ -1,3 +1,9 @@
+## [0.1.3] - 2020-12-23
+
+* Enabled rules: `only_throw_errors`, `overridden_fields`, `package_prefixed_library_names`, `parameter_assignments`, 
+`prefer_adjacent_string_concatenation`, `prefer_asserts_in_initializer_lists`, `prefer_const_constructors`,
+`prefer_const_constructors_in_immutables`, `prefer_const_declarations`.
+
 ## [0.1.2+1] - 2020-12-22
 
 * Readme: Fix version shield.
