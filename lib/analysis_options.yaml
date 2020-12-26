@@ -600,7 +600,7 @@ linter:
 
     # Inline list item declarations where possible.
     # https://dart-lang.github.io/linter/lints/prefer_inlined_adds.html
-    # - prefer_inlined_adds
+    - prefer_inlined_adds
 
     # Prefer int literals over double literals.
     # https://dart-lang.github.io/linter/lints/prefer_int_literals.html
@@ -609,7 +609,7 @@ linter:
     # Use interpolation to compose strings and values.
     # [effective dart]
     # https://dart-lang.github.io/linter/lints/prefer_interpolation_to_compose_strings.html
-    # - prefer_interpolation_to_compose_strings
+    - prefer_interpolation_to_compose_strings
 
     # Use isEmpty for Iterables and Maps.
     # [pedantic] [effective dart]
@@ -623,7 +623,7 @@ linter:
 
     # Prefer is! operator.
     # https://dart-lang.github.io/linter/lints/prefer_is_not_operator.html
-    # - prefer_is_not_operator
+    - prefer_is_not_operator
 
     # Prefer to use whereType on iterable.
     # [pedantic] [effective dart]
@@ -633,11 +633,11 @@ linter:
     # Prefer using mixins.
     # [effective dart]
     # https://dart-lang.github.io/linter/lints/prefer_mixin.html
-    # - prefer_mixin
+    - prefer_mixin
 
     # Prefer using null aware operators.
     # https://dart-lang.github.io/linter/lints/prefer_null_aware_operators.html
-    # - prefer_null_aware_operators
+    - prefer_null_aware_operators
 
     # Only use double quotes for strings containing single quotes.
     # [pedantic]
@@ -651,11 +651,11 @@ linter:
 
     # Prefer typing uninitialized variables and fields.
     # https://dart-lang.github.io/linter/lints/prefer_typing_uninitialized_variables.html
-    # - prefer_typing_uninitialized_variables
+    - prefer_typing_uninitialized_variables
 
     # Provide a deprecation message, via @Deprecated("message").
     # https://dart-lang.github.io/linter/lints/provide_deprecation_message.html
-    # - provide_deprecation_message
+    - provide_deprecation_message
 
     # Document all public members.
     # [effective dart]
@@ -669,7 +669,7 @@ linter:
 
     # SizedBox for whitespace.
     # https://dart-lang.github.io/linter/lints/sized_box_for_whitespace.html
-    # - sized_box_for_whitespace
+    - sized_box_for_whitespace
 
     # Prefer using /// for doc comments.
     # [flutter] [pedantic] [effective dart]

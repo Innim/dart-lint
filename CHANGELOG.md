@@ -1,3 +1,8 @@
+## [0.1.4] - 2020-12-26
+
+* Enabled rules: `prefer_inlined_adds`, `prefer_interpolation_to_compose_strings`, `prefer_is_not_operator`, `prefer_mixin`, 
+`prefer_null_aware_operators`, `prefer_typing_uninitialized_variables`, `provide_deprecation_message`, `sized_box_for_whitespace`.
+
 ## [0.1.3+1] - 2020-12-23
 
 * Disabled rule `prefer_if_elements_to_conditional_expressions`: it's not working well.
