@@ -1,3 +1,9 @@
+## [0.1.5] - 2021-01-01
+
+* Enabled rules: `sort_unnamed_constructors_first`, `type_annotate_public_apis`, `unnecessary_await_in_return`, 
+`unnecessary_brace_in_string_interps`, `unnecessary_getters_setters`, `unnecessary_lambdas`, `unnecessary_null_aware_assignments`, 
+`unnecessary_nullable_for_final_variable_declarations`.
+
 ## [0.1.4] - 2020-12-26
 
 * Enabled rules: `prefer_inlined_adds`, `prefer_interpolation_to_compose_strings`, `prefer_is_not_operator`, `prefer_mixin`, 

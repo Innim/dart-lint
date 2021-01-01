@@ -686,7 +686,7 @@ linter:
 
     # Sort unnamed constructor declarations first.
     # https://dart-lang.github.io/linter/lints/sort_unnamed_constructors_first.html
-    # - sort_unnamed_constructors_first
+    - sort_unnamed_constructors_first
 
     # Place the super call last in a constructor initialization list.
     # (deprecated)
@@ -700,7 +700,7 @@ linter:
     # Type annotate public APIs.
     # [effective dart]
     # https://dart-lang.github.io/linter/lints/type_annotate_public_apis.html
-    # - type_annotate_public_apis
+    - type_annotate_public_apis
 
     # Don't type annotate initializing formals.
     # [flutter] [pedantic] [effective dart]
@@ -714,12 +714,12 @@ linter:
 
     # Unnecessary await keyword in return.
     # https://dart-lang.github.io/linter/lints/unnecessary_await_in_return.html
-    # - unnecessary_await_in_return
+    - unnecessary_await_in_return
 
     # Avoid using braces in interpolation when not needed.
     # [flutter] [effective dart]
     # https://dart-lang.github.io/linter/lints/unnecessary_brace_in_string_interps.html
-    # - unnecessary_brace_in_string_interps
+    - unnecessary_brace_in_string_interps
 
     # Avoid const keyword.
     # [pedantic] [effective dart]
@@ -733,12 +733,12 @@ linter:
     # Avoid wrapping fields in getters and setters just to be "safe".
     # [flutter] [effective dart]
     # https://dart-lang.github.io/linter/lints/unnecessary_getters_setters.html
-    # - unnecessary_getters_setters
+    - unnecessary_getters_setters
 
     # Don't create a lambda when a tear-off will do.
     # [effective dart]
     # https://dart-lang.github.io/linter/lints/unnecessary_lambdas.html
-    # - unnecessary_lambdas
+    - unnecessary_lambdas
 
     # Unnecessary new keyword.
     # [pedantic] [effective dart]
@@ -747,7 +747,7 @@ linter:
 
     # Avoid null in null-aware assignment.
     # https://dart-lang.github.io/linter/lints/unnecessary_null_aware_assignments.html
-    # - unnecessary_null_aware_assignments
+    - unnecessary_null_aware_assignments
 
     # Unnecessary null checks.
     # (experimental)
@@ -761,7 +761,8 @@ linter:
 
     # Use a non-nullable type for a final variable initialized with a non-nullable value.
     # https://dart-lang.github.io/linter/lints/unnecessary_nullable_for_final_variable_declarations.html
-    # - unnecessary_nullable_for_final_variable_declarations (experimental)
+    # (experimental)
+    - unnecessary_nullable_for_final_variable_declarations
 
     # Don't override a method to do a super method invocation with the same parameters.
     # https://dart-lang.github.io/linter/lints/unnecessary_overrides.html
