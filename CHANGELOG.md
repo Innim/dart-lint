@@ -1,4 +1,10 @@
+## [0.1.6] - 2021-01-02
 
+* Enabled error rules: `avoid_print`, `avoid_returning_null_for_future`, `avoid_type_to_string`, `cancel_subscriptions`, 
+`control_flow_in_finally`, `empty_statements`, `hash_and_equals`, `invariant_booleans`,
+`iterable_contains_unrelated_type`, `list_remove_unrelated_type`, `literal_only_boolean_expressions`,
+`no_adjacent_strings_in_list`, `no_logic_in_create_state`, `prefer_void_to_null`,
+`test_types_in_equals`, `throw_in_finally`, `unnecessary_statements`, `unsafe_html`, `use_key_in_widget_constructors`.
 * Enabled style rules: `unnecessary_overrides`, `unnecessary_parenthesis`, `unnecessary_raw_strings`, `unnecessary_string_escapes`,
 `unnecessary_string_interpolations`.
 

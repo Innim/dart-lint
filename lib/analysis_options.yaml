@@ -33,7 +33,7 @@ linter:
 
     # Avoid print calls in production code.
     # https://dart-lang.github.io/linter/lints/avoid_print.html
-    # - avoid_print
+    - avoid_print
 
     # Avoid relative imports for files in lib/.
     # [pedantic] [effective dart]
@@ -42,7 +42,7 @@ linter:
 
     # Avoid returning null for Future.
     # https://dart-lang.github.io/linter/lints/avoid_returning_null_for_future.html
-    # - avoid_returning_null_for_future
+    - avoid_returning_null_for_future
     
     # Avoid slow async dart:io methods.
     # https://dart-lang.github.io/linter/lints/avoid_slow_async_io.html
@@ -50,7 +50,7 @@ linter:
     
     # Avoid .toString() in production code since results may be minified.
     # https://dart-lang.github.io/linter/lints/avoid_type_to_string.html
-    # - avoid_type_to_string
+    - avoid_type_to_string
     
     # Avoid types as parameter names.
     # [pedantic]
@@ -66,7 +66,7 @@ linter:
     # Cancel instances of dart.async.StreamSubscription.
     # [flutter]
     # https://dart-lang.github.io/linter/lints/cancel_subscriptions.html
-    # - cancel_subscriptions
+    - cancel_subscriptions
     
     # Close instances of dart.core.Sink.
     # [flutter]
@@ -75,12 +75,14 @@ linter:
 
     # Only reference in scope identifiers in doc comments.
     # https://dart-lang.github.io/linter/lints/comment_references.html
+    #
+    # Issue: https://github.com/dart-lang/linter/issues/1142
     # - comment_references
 
     # Avoid control flow in finally blocks.
     # [flutter]
     # https://dart-lang.github.io/linter/lints/control_flow_in_finally.html
-    # - control_flow_in_finally
+    - control_flow_in_finally
 
     # DO reference all public properties in debug methods.
     # https://dart-lang.github.io/linter/lints/diagnostic_describe_all_properties.html
@@ -89,33 +91,33 @@ linter:
     # Avoid empty statements.
     # [flutter]
     # https://dart-lang.github.io/linter/lints/empty_statements.html
-    # - empty_statements
+    - empty_statements
 
     # Always override hashCode if overriding ==.
     # [flutter] [effective dart]
     # https://dart-lang.github.io/linter/lints/hash_and_equals.html
-    # - hash_and_equals
+    - hash_and_equals
 
     # Conditions should not unconditionally evaluate to true or to false.
     # (experimental)
     # https://dart-lang.github.io/linter/lints/invariant_booleans.html
-    # - invariant_booleans
+    - invariant_booleans
 
     # Invocation of Iterable.contains with references of unrelated types.
     # https://dart-lang.github.io/linter/lints/iterable_contains_unrelated_type.html
-    # - iterable_contains_unrelated_type
+    - iterable_contains_unrelated_type
 
     # Invocation of remove with references of unrelated types.
     # https://dart-lang.github.io/linter/lints/list_remove_unrelated_type.html
-    # - list_remove_unrelated_type
+    - list_remove_unrelated_type
 
     # Boolean expression composed only with literals.
     # https://dart-lang.github.io/linter/lints/literal_only_boolean_expressions.html
-    # - literal_only_boolean_expressions
+    - literal_only_boolean_expressions
 
     # Don't use adjacent strings in list.
     # https://dart-lang.github.io/linter/lints/no_adjacent_strings_in_list.html
-    # - no_adjacent_strings_in_list
+    - no_adjacent_strings_in_list
 
     # Don't use more than one case with same value.
     # [pedantic]
@@ -124,7 +126,7 @@ linter:
 
     # Don't put any logic in createState.
     # https://dart-lang.github.io/linter/lints/no_logic_in_create_state.html
-    # - no_logic_in_create_state
+    - no_logic_in_create_state
 
     # Prefer relative imports for files in lib/.
     # [effective dart]
@@ -133,22 +135,22 @@ linter:
 
     # Don't use the Null type, unless you are positive that you don't want void.
     # https://dart-lang.github.io/linter/lints/prefer_void_to_null.html
-    # - prefer_void_to_null
+    - prefer_void_to_null
 
     # Test type arguments in operator ==(Object other).
     # [flutter]
     # https://dart-lang.github.io/linter/lints/test_types_in_equals.html
-    # - test_types_in_equals
+    - test_types_in_equals
 
     # Avoid throw in finally block.
     # [flutter]
     # https://dart-lang.github.io/linter/lints/throw_in_finally.html
-    # - throw_in_finally
+    - throw_in_finally
 
     # Avoid using unnecessary statements.
     # [flutter]
     # https://dart-lang.github.io/linter/lints/unnecessary_statements.html
-    # - unnecessary_statements
+    - unnecessary_statements
 
     # Equality operator == invocation with references of unrelated types.
     # [flutter] [pedantic]
@@ -157,11 +159,11 @@ linter:
 
     # Avoid unsafe HTML APIs.
     # https://dart-lang.github.io/linter/lints/unsafe_html.html
-    # - unsafe_html
+    - unsafe_html
 
     # Use key in widget constructors.
     # https://dart-lang.github.io/linter/lints/use_key_in_widget_constructors.html
-    # - use_key_in_widget_constructors
+    - use_key_in_widget_constructors
 
     # Use valid regular expression syntax.
     # [flutter] [pedantic]
