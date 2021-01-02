@@ -1,3 +1,7 @@
+
+* Enabled style rules: `unnecessary_overrides`, `unnecessary_parenthesis`, `unnecessary_raw_strings`, `unnecessary_string_escapes`,
+`unnecessary_string_interpolations`.
+
 ## [0.1.5] - 2021-01-01
 
 * Enabled rules: `sort_unnamed_constructors_first`, `type_annotate_public_apis`, `unnecessary_await_in_return`, 

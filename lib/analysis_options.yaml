@@ -766,23 +766,23 @@ linter:
 
     # Don't override a method to do a super method invocation with the same parameters.
     # https://dart-lang.github.io/linter/lints/unnecessary_overrides.html
-    # - unnecessary_overrides
+    - unnecessary_overrides
 
     # Unnecessary parenthesis can be removed.
     # https://dart-lang.github.io/linter/lints/unnecessary_parenthesis.html
-    # - unnecessary_parenthesis
+    - unnecessary_parenthesis
 
     # Unnecessary raw string.
     # https://dart-lang.github.io/linter/lints/unnecessary_raw_strings.html
-    # - unnecessary_raw_strings
+    - unnecessary_raw_strings
 
     # Remove unnecessary backslashes in strings.
     # https://dart-lang.github.io/linter/lints/unnecessary_string_escapes.html
-    # - unnecessary_string_escapes
+    - unnecessary_string_escapes
 
     # Unnecessary string interpolation.
     # https://dart-lang.github.io/linter/lints/unnecessary_string_interpolations.html
-    # - unnecessary_string_interpolations
+    - unnecessary_string_interpolations
 
     # Don't access members with this unless avoiding shadowing.
     # [pedantic] [effective dart]
