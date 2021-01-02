@@ -50,7 +50,7 @@ linter:
     
     # Avoid .toString() in production code since results may be minified.
     # https://dart-lang.github.io/linter/lints/avoid_type_to_string.html
-    - avoid_type_to_string
+    # - avoid_type_to_string
     
     # Avoid types as parameter names.
     # [pedantic]

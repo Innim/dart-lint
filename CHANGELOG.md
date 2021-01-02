@@ -1,3 +1,7 @@
+## [0.1.6+1] - 2021-01-02
+
+* Temporary disabled rule `avoid_type_to_string`.
+
 ## [0.1.6] - 2021-01-02
 
 * Enabled error rules: `avoid_print`, `avoid_returning_null_for_future`, `avoid_type_to_string`, `cancel_subscriptions`, 
