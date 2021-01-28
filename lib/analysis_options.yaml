@@ -1,10 +1,10 @@
 analyzer:
-  # Use strog mode
+  # Use strong mode
   strong-mode:
     implicit-casts: false
     implicit-dynamic: false
   # See all errors at https://github.com/dart-lang/sdk/blob/master/pkg/analyzer/lib/error/error.dart
-  errors:    
+  errors:
     # INFO -> WARNING
 
     # Required parameter is missing.
@@ -14,7 +14,7 @@ analyzer:
     missing_return: warning
 
     # INFO -> IGNORE
-    
+
     # Allow TODOs
     todo: ignore
 # See all rules at https://dart-lang.github.io/linter/lints/index.html
@@ -43,15 +43,15 @@ linter:
     # Avoid returning null for Future.
     # https://dart-lang.github.io/linter/lints/avoid_returning_null_for_future.html
     - avoid_returning_null_for_future
-    
+
     # Avoid slow async dart:io methods.
     # https://dart-lang.github.io/linter/lints/avoid_slow_async_io.html
     # - avoid_slow_async_io
-    
+
     # Avoid .toString() in production code since results may be minified.
     # https://dart-lang.github.io/linter/lints/avoid_type_to_string.html
     # - avoid_type_to_string
-    
+
     # Avoid types as parameter names.
     # [pedantic]
     # https://dart-lang.github.io/linter/lints/avoid_types_as_parameter_names.html
@@ -61,13 +61,13 @@ linter:
     # [flutter]
     # (experimental)
     # https://dart-lang.github.io/linter/lints/avoid_web_libraries_in_flutter.html
-    - avoid_web_libraries_in_flutter 
+    - avoid_web_libraries_in_flutter
 
     # Cancel instances of dart.async.StreamSubscription.
     # [flutter]
     # https://dart-lang.github.io/linter/lints/cancel_subscriptions.html
     - cancel_subscriptions
-    
+
     # Close instances of dart.core.Sink.
     # [flutter]
     # https://dart-lang.github.io/linter/lints/close_sinks.html
@@ -404,7 +404,7 @@ linter:
     # [flutter] [effective dart]
     # https://dart-lang.github.io/linter/lints/implementation_imports.html
     - implementation_imports
-    
+
     # Join return statement with assignment when possible.
     # https://dart-lang.github.io/linter/lints/join_return_with_assignment.html
     - join_return_with_assignment
@@ -805,8 +805,9 @@ linter:
     # - use_is_even_rather_than_modulo
 
     # Use late for private members with non-nullable type.
+    # (experimental)
     # https://dart-lang.github.io/linter/lints/use_late_for_private_fields_and_variables.html
-    # - use_late_for_private_fields_and_variables (experimental)
+    # - use_late_for_private_fields_and_variables
 
     # Use raw string to avoid escapes.
     # https://dart-lang.github.io/linter/lints/use_raw_strings.html
