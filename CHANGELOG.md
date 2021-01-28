@@ -1,3 +1,7 @@
+## [0.1.7] - 2021-01-28
+
+* Enabled style rules: `use_full_hex_values_for_flutter_colors`, `use_is_even_rather_than_modulo`, `use_raw_strings`, `use_setters_to_change_properties`, `use_string_buffers`, `use_to_and_as_if_applicable`, `void_checks`, `package_names`, `sort_pub_dependencies`.
+
 ## [0.1.6+1] - 2021-01-02
 
 * Temporary disabled rule `avoid_type_to_string`.

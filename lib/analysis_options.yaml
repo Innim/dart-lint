@@ -793,7 +793,7 @@ linter:
 
     # Prefer an 8-digit hexadecimal integer(0xFFFFFFFF) to instantiate Color.
     # https://dart-lang.github.io/linter/lints/use_full_hex_values_for_flutter_colors.html
-    # - use_full_hex_values_for_flutter_colors
+    - use_full_hex_values_for_flutter_colors
 
     # Use generic function type syntax for parameters.
     # [pedantic]
@@ -802,7 +802,7 @@ linter:
 
     # Prefer intValue.isOdd/isEven instead of checking the result of % 2.
     # https://dart-lang.github.io/linter/lints/use_is_even_rather_than_modulo.html
-    # - use_is_even_rather_than_modulo
+    - use_is_even_rather_than_modulo
 
     # Use late for private members with non-nullable type.
     # (experimental)
@@ -811,7 +811,7 @@ linter:
 
     # Use raw string to avoid escapes.
     # https://dart-lang.github.io/linter/lints/use_raw_strings.html
-    # - use_raw_strings
+    - use_raw_strings
 
     # Use rethrow to rethrow a caught exception.
     # [pedantic] [effective dart]
@@ -821,28 +821,28 @@ linter:
     # Use a setter for operations that conceptually change a property.
     # [effective dart]
     # https://dart-lang.github.io/linter/lints/use_setters_to_change_properties.html
-    # - use_setters_to_change_properties
+    - use_setters_to_change_properties
 
     # Use string buffers to compose strings.
     # https://dart-lang.github.io/linter/lints/use_string_buffers.html
-    # - use_string_buffers
+    - use_string_buffers
 
     # Start the name of the method with to/_to or as/_as if applicable.
     # [effective dart]
     # https://dart-lang.github.io/linter/lints/use_to_and_as_if_applicable.html
-    # - use_to_and_as_if_applicable
+    - use_to_and_as_if_applicable
 
     # Don't assign to void.
     # https://dart-lang.github.io/linter/lints/void_checks.html
-    # - void_checks
+    - void_checks
 
     # Pub Rules
 
     # Use lowercase_with_underscores for package names.
     # [flutter]
     # https://dart-lang.github.io/linter/lints/package_names.html
-    # - package_names
+    - package_names
 
     # Sort pub dependencies.
     # https://dart-lang.github.io/linter/lints/sort_pub_dependencies.html
-    # - sort_pub_dependencies
+    - sort_pub_dependencies
