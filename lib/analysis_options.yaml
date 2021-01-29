@@ -821,7 +821,7 @@ linter:
     # Use a setter for operations that conceptually change a property.
     # [effective dart]
     # https://dart-lang.github.io/linter/lints/use_setters_to_change_properties.html
-    - use_setters_to_change_properties
+    # - use_setters_to_change_properties
 
     # Use string buffers to compose strings.
     # https://dart-lang.github.io/linter/lints/use_string_buffers.html
