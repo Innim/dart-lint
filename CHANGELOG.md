@@ -1,3 +1,7 @@
+## [0.1.7+2] - 2021-02-04
+
+* Readme: add information about disabling rules.
+
 ## [0.1.7+1] - 2021-01-29
 
 * Disabled `use_setters_to_change_properties`: it's bad when we have only setter (without getter) and it has many false positive (for example in callbacks).

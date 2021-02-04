@@ -27,3 +27,13 @@ then, add an include in your `analysis_options.yaml`:
 ```yaml
 include: package:innim_lint/analysis_options.yaml
 ```
+
+### Disable some rules
+
+You can disable some rules in your project. Add in your `analysis_options.yaml`:
+
+```yaml
+linter:
+  rules:
+    prefer_single_quotes: false
+```
