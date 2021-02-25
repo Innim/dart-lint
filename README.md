@@ -37,3 +37,9 @@ linter:
   rules:
     prefer_single_quotes: false
 ```
+
+### Exclude from analysis
+
+You can exculde some files from analysis - see [Excluding code from analysis](https://dart.dev/guides/language/analysis-options#excluding-files).
+
+By default all generated code (files with `.g.dart` suffix) will be excluded with this analysis settings. 

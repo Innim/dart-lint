@@ -3,6 +3,10 @@ analyzer:
   strong-mode:
     implicit-casts: false
     implicit-dynamic: false
+  # Excludes from analysis
+  exclude:
+    # All generated code
+    - "**/*.g.dart"
   # See all errors at https://github.com/dart-lang/sdk/blob/master/pkg/analyzer/lib/error/error.dart
   errors:
     # INFO -> WARNING

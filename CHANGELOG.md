@@ -1,3 +1,7 @@
+## [0.1.8] - 2021-02-25
+
+* Exclude generated code from analysis by default.
+
 ## [0.1.7+2] - 2021-02-04
 
 * Readme: add information about disabling rules.
