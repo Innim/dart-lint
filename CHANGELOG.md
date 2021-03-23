@@ -1,3 +1,7 @@
+## [0.2.0] - 2021-03-23
+
+* Migrate to null safety.
+
 ## [0.1.8] - 2021-02-25
 
 * Exclude generated code from analysis by default.
