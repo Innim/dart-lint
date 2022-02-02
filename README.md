@@ -28,6 +28,17 @@ then, add an include in your `analysis_options.yaml`:
 include: package:innim_lint/analysis_options.yaml
 ```
 
+### Unawaited 
+
+Not all futures need to be awaited. By default "unawaited futures" lint enabled
+which enforces that potential futures in asynchronous functions are handled somehow. 
+If a particular future value doesn't need to be awaited, you can call `unawaited(...)` with it, 
+which will avoid the lint, simply because the expression no longer has type Future. 
+
+Function [`unawaited`](https://api.dart.dev/stable/2.16.0/dart-async/unawaited.html)
+appeared in [`dart:async`](https://api.dart.dev/stable/2.16.0/dart-async/dart-async-library.html)
+since 2.15.
+
 ### Disable some rules
 
 You can disable some rules in your project. Add in your `analysis_options.yaml`:
@@ -40,6 +51,6 @@ linter:
 
 ### Exclude from analysis
 
-You can exculde some files from analysis - see [Excluding code from analysis](https://dart.dev/guides/language/analysis-options#excluding-files).
+You can exclude some files from analysis - see [Excluding code from analysis](https://dart.dev/guides/language/analysis-options#excluding-files).
 
 By default all generated code (files with `.g.dart` suffix) will be excluded with this analysis settings. 
