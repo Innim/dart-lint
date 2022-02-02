@@ -1,3 +1,7 @@
+## [0.3.0] - 2022-02-02
+
+* Remove `pedantic` dependency. If you used `unawaited()`, now use it from [`dart:async`](https://api.dart.dev/stable/2.16.0/dart-async/dart-async-library.html)
+
 ## [0.2.0] - 2021-03-23
 
 * Migrate to null safety.
@@ -68,7 +72,7 @@
 
 ## [0.1.1+1] - 2020-12-11
 
-* Update package desciption.
+* Update package description.
 
 ## [0.1.1] - 2020-12-11
 
