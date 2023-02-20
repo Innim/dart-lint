@@ -1,6 +1,7 @@
 # innim_lint
 
 [![pub package](https://img.shields.io/pub/v/innim_lint)](https://pub.dartlang.org/packages/innim_lint)
+[![Analyze & Test](https://github.com/Innim/dart-lint/actions/workflows/dart.yml/badge.svg?branch=main)](https://github.com/Innim/dart-lint/actions/workflows/dart.yml)
 
 This package contains analysis settings for Flutter/Dart projects and packages by [Innim team](https://github.com/innim/).
 
@@ -15,11 +16,11 @@ To use the lints add a dependency in your `pubspec.yaml`:
 ```yaml
 # If you use `unawaited()` in code, add a normal dependency.
 dependencies:
-  innim_lint: ^1.0.0
+  innim_lint: ^0.3.1
 
 # Or, if you just want `analysis_options.yaml`, it can be a dev dependency.
 dev_dependencies:
-  innim_lint: ^1.0.0
+  innim_lint: ^0.3.1
 ```
 
 then, add an include in your `analysis_options.yaml`:
