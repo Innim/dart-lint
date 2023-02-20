@@ -102,11 +102,6 @@ linter:
     # https://dart-lang.github.io/linter/lints/hash_and_equals.html
     - hash_and_equals
 
-    # Conditions should not unconditionally evaluate to true or to false.
-    # (experimental)
-    # https://dart-lang.github.io/linter/lints/invariant_booleans.html
-    - invariant_booleans
-
     # Invocation of Iterable.contains with references of unrelated types.
     # https://dart-lang.github.io/linter/lints/iterable_contains_unrelated_type.html
     - iterable_contains_unrelated_type
