@@ -1,8 +1,9 @@
 analyzer:
-  # Use strong mode
-  strong-mode:
-    implicit-casts: false
-    implicit-dynamic: false
+  # Enabling stricter type checks
+  language:
+    strict-inference: true
+    strict-casts: true
+    strict-raw-types: true
   # Excludes from analysis
   exclude:
     # All generated code
