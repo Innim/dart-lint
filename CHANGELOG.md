@@ -1,3 +1,7 @@
+## [0.4.0]
+
+* Upgrade to Dart 2.16+.
+
 ## [0.3.1]
 
 * Remove deprecated rule `invariant_booleans`.
