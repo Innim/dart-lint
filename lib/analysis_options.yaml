@@ -8,6 +8,8 @@ analyzer:
   exclude:
     # All generated code
     - "**/*.g.dart"
+    # Firebase Options
+    - lib/firebase_options.dart
   # See all errors at https://github.com/dart-lang/sdk/blob/master/pkg/analyzer/lib/error/error.dart
   errors:
     # INFO -> WARNING
