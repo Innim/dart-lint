@@ -22,152 +22,208 @@ analyzer:
 
     # Allow TODOs
     todo: ignore
-# See all rules at https://dart-lang.github.io/linter/lints/index.html
+# See all rules at https://dart.dev/tools/linter-rules
 linter:
   rules:
     # Error Rules
 
     # Avoid relative imports for files in lib/.
-    # https://dart-lang.github.io/linter/lints/always_use_package_imports.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/always_use_package_imports
     # - always_use_package_imports
 
+
+    # Avoid method calls or property accesses on a “dynamic” target.
+    # https://dart.dev/tools/linter-rules/avoid_dynamic_calls
+    # TODO - avoid_dynamic_calls
+
+
     # Avoid empty else statements.
-    # [flutter] [pedantic]
-    # https://dart-lang.github.io/linter/lints/avoid_empty_else.html
+    # [core] [recommended] [flutter]
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_empty_else
     - avoid_empty_else
 
     # Avoid print calls in production code.
-    # https://dart-lang.github.io/linter/lints/avoid_print.html
+    # [flutter]
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_print
     - avoid_print
 
     # Avoid relative imports for files in lib/.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_relative_lib_imports.html
+    # [core] [recommended] [flutter]
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_relative_lib_imports
     - avoid_relative_lib_imports
 
-    # Avoid returning null for Future.
-    # https://dart-lang.github.io/linter/lints/avoid_returning_null_for_future.html
-    - avoid_returning_null_for_future
+    # Avoid returning null for Future. (Deprecated)
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_returning_null_for_future
+    # - avoid_returning_null_for_future
 
     # Avoid slow async dart:io methods.
-    # https://dart-lang.github.io/linter/lints/avoid_slow_async_io.html
+    # https://dart.dev/tools/linter-rules/avoid_slow_async_io
     # - avoid_slow_async_io
 
     # Avoid .toString() in production code since results may be minified.
-    # https://dart-lang.github.io/linter/lints/avoid_type_to_string.html
+    # https://dart.dev/tools/linter-rules/avoid_type_to_string
     # - avoid_type_to_string
 
     # Avoid types as parameter names.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/avoid_types_as_parameter_names.html
+    # [core] [recommended] [flutter]
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_types_as_parameter_names
     - avoid_types_as_parameter_names
+
+    # Avoid overriding a final field to return different values if called multiple times. (Unreleased)
+    # https://dart.dev/tools/linter-rules/avoid_unstable_final_fields
+    # - avoid_unstable_final_fields
 
     # Avoid using web-only libraries outside Flutter web plugin packages.
     # [flutter]
-    # (experimental)
-    # https://dart-lang.github.io/linter/lints/avoid_web_libraries_in_flutter.html
+    # https://dart.dev/tools/linter-rules/avoid_web_libraries_in_flutter
     - avoid_web_libraries_in_flutter
 
     # Cancel instances of dart.async.StreamSubscription.
-    # [flutter]
-    # https://dart-lang.github.io/linter/lints/cancel_subscriptions.html
+    # https://dart.dev/tools/linter-rules/cancel_subscriptions
     - cancel_subscriptions
 
     # Close instances of dart.core.Sink.
-    # [flutter]
-    # https://dart-lang.github.io/linter/lints/close_sinks.html
+    # https://dart.dev/tools/linter-rules/close_sinks
     # - close_sinks
 
+    # Invocation of various collection methods with arguments of unrelated types.
+    # [core] [recommended] [flutter]
+    # https://dart.dev/tools/linter-rules/collection_methods_unrelated_type
+    - collection_methods_unrelated_type
+
     # Only reference in scope identifiers in doc comments.
-    # https://dart-lang.github.io/linter/lints/comment_references.html
+    # https://dart.dev/tools/linter-rules/comment_references
     #
     # Issue: https://github.com/dart-lang/linter/issues/1142
     # - comment_references
 
     # Avoid control flow in finally blocks.
-    # [flutter]
-    # https://dart-lang.github.io/linter/lints/control_flow_in_finally.html
+    # [recommended] [flutter]
+    # https://dart.dev/tools/linter-rules/control_flow_in_finally
     - control_flow_in_finally
 
+    # Avoid using deprecated elements from within the package in which they are declared.
+    # https://dart.dev/tools/linter-rules/deprecated_member_use_from_same_package
+    - deprecated_member_use_from_same_package
+
     # DO reference all public properties in debug methods.
-    # https://dart-lang.github.io/linter/lints/diagnostic_describe_all_properties.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/diagnostic_describe_all_properties
     # - diagnostic_describe_all_properties
 
+    # Don’t invoke asynchronous functions in non-async blocks.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/discarded_futures
+    # - discarded_futures # TODO: maybe enable this one
+
     # Avoid empty statements.
-    # [flutter]
-    # https://dart-lang.github.io/linter/lints/empty_statements.html
+    # [recommended] [flutter]
+    # Has fix
+    # https://dart.dev/tools/linter-rules/empty_statements
     - empty_statements
 
     # Always override hashCode if overriding ==.
-    # [flutter] [effective dart]
-    # https://dart-lang.github.io/linter/lints/hash_and_equals.html
+    # [core] [recommended] [flutter]
+    # Has fix
+    # https://dart.dev/tools/linter-rules/hash_and_equals
     - hash_and_equals
 
-    # Invocation of Iterable.contains with references of unrelated types.
-    # https://dart-lang.github.io/linter/lints/iterable_contains_unrelated_type.html
-    - iterable_contains_unrelated_type
+    # Don’t implicitly reopen classes. (Experimental)
+    # Has fix
+    # https://dart.dev/tools/linter-rules/implicit_reopen
+    # - implicit_reopen
 
-    # Invocation of remove with references of unrelated types.
-    # https://dart-lang.github.io/linter/lints/list_remove_unrelated_type.html
-    - list_remove_unrelated_type
+    # Use case expressions that are valid in Dart 3.0. (Experimental)
+    # Has fix
+    # https://dart.dev/tools/linter-rules/invalid_case_patterns
+    # - invalid_case_patterns
+
+    # Invocation of Iterable.contains with references of unrelated types.
+    # https://dart.dev/tools/linter-rules/iterable_contains_unrelated_type
+    # - iterable_contains_unrelated_type
+
+    # Invocation of remove with references of unrelated types. (Deprecated)
+    # https://dart.dev/tools/linter-rules/list_remove_unrelated_type
+    # - list_remove_unrelated_type
 
     # Boolean expression composed only with literals.
-    # https://dart-lang.github.io/linter/lints/literal_only_boolean_expressions.html
+    # https://dart.dev/tools/linter-rules/literal_only_boolean_expressions
     - literal_only_boolean_expressions
 
     # Don't use adjacent strings in list.
-    # https://dart-lang.github.io/linter/lints/no_adjacent_strings_in_list.html
+    # https://dart.dev/tools/linter-rules/no_adjacent_strings_in_list
     - no_adjacent_strings_in_list
 
     # Don't use more than one case with same value.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/no_duplicate_case_values.html
+    # [core] [recommended] [flutter]
+    # Has fix
+    # https://dart.dev/tools/linter-rules/no_duplicate_case_values
     - no_duplicate_case_values
 
     # Don't put any logic in createState.
-    # https://dart-lang.github.io/linter/lints/no_logic_in_create_state.html
+    # [flutter]
+    # https://dart.dev/tools/linter-rules/no_logic_in_create_state
     - no_logic_in_create_state
 
+    # Don’t assign a variable to itself.
+    # https://dart.dev/tools/linter-rules/no_self_assignments
+    - no_self_assignments
+
+    # Don’t use wildcard parameters or variables.
+    # https://dart.dev/tools/linter-rules/no_wildcard_variable_uses
+    - no_wildcard_variable_uses
+
     # Prefer relative imports for files in lib/.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_relative_imports.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_relative_imports
     # - prefer_relative_imports
 
     # Don't use the Null type, unless you are positive that you don't want void.
-    # https://dart-lang.github.io/linter/lints/prefer_void_to_null.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_void_to_null
     - prefer_void_to_null
 
     # Test type arguments in operator ==(Object other).
-    # [flutter]
-    # https://dart-lang.github.io/linter/lints/test_types_in_equals.html
+    # https://dart.dev/tools/linter-rules/test_types_in_equals
     - test_types_in_equals
 
     # Avoid throw in finally block.
-    # [flutter]
-    # https://dart-lang.github.io/linter/lints/throw_in_finally.html
+    # https://dart.dev/tools/linter-rules/throw_in_finally
     - throw_in_finally
 
     # Avoid using unnecessary statements.
-    # [flutter]
-    # https://dart-lang.github.io/linter/lints/unnecessary_statements.html
+    # https://dart.dev/tools/linter-rules/unnecessary_statements
     - unnecessary_statements
 
     # Equality operator == invocation with references of unrelated types.
-    # [flutter] [pedantic]
-    # https://dart-lang.github.io/linter/lints/unrelated_type_equality_checks.html
+    # [core] [recommended] [flutter]
+    # https://dart.dev/tools/linter-rules/unrelated_type_equality_checks
     - unrelated_type_equality_checks
 
     # Avoid unsafe HTML APIs.
-    # https://dart-lang.github.io/linter/lints/unsafe_html.html
+    # https://dart.dev/tools/linter-rules/unsafe_html
     - unsafe_html
 
+    # Do not use BuildContexts across async gaps.
+    # [flutter]
+    # https://dart.dev/tools/linter-rules/use_build_context_synchronously
+    - use_build_context_synchronously
+
     # Use key in widget constructors.
-    # https://dart-lang.github.io/linter/lints/use_key_in_widget_constructors.html
+    # [flutter]
+    # Has fix
+    # https://dart.dev/tools/linter-rules/use_key_in_widget_constructors
     - use_key_in_widget_constructors
 
     # Use valid regular expression syntax.
-    # [flutter] [pedantic]
-    # https://dart-lang.github.io/linter/lints/valid_regexps.html
+    # [core] [recommended] [flutter]
+    # https://dart.dev/tools/linter-rules/valid_regexps
     - valid_regexps
 
     # Style Rules
