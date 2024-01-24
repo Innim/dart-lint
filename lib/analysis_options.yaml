@@ -231,170 +231,199 @@ linter:
     # Style Rules
 
     # Declare method return types.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/always_declare_return_types.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/always_declare_return_types
     - always_declare_return_types
 
     # Separate the control structure expression from its statement.
-    # https://dart-lang.github.io/linter/lints/always_put_control_body_on_new_line.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/always_put_control_body_on_new_line
     # - always_put_control_body_on_new_line
 
     # Put @required named parameters first.
-    # https://dart-lang.github.io/linter/lints/always_put_required_named_parameters_first.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/always_put_required_named_parameters_first
     # - always_put_required_named_parameters_first
 
-    # Specify @required on named parameters without defaults.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/always_require_non_null_named_parameters.html
-    - always_require_non_null_named_parameters
+    # Specify @required on named parameters without defaults. (Deprecated)
+    # Has fix
+    # https://dart.dev/tools/linter-rules/always_require_non_null_named_parameters
+    # - always_require_non_null_named_parameters
 
     # Specify type annotations.
-    # https://dart-lang.github.io/linter/lints/always_specify_types.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/always_specify_types
     # - always_specify_types
 
     # Annotate overridden members.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/annotate_overrides.html
+    # [recommended] [flutter]
+    # Has fix
+    # https://dart.dev/tools/linter-rules/annotate_overrides
     - annotate_overrides
 
+    # Annotate redeclared members. (Experimental, Dart 3.2.0)
+    # Has fix
+    # https://dart.dev/tools/linter-rules/annotate_redeclares
+    # - annotate_redeclares
+
     # Avoid annotating with dynamic when not required.
-    # https://dart-lang.github.io/linter/lints/avoid_annotating_with_dynamic.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_annotating_with_dynamic
     # - avoid_annotating_with_dynamic
 
-    # Avoid using as.
-    # https://dart-lang.github.io/linter/lints/avoid_as.html
+    # Avoid using as. (Removed)
+    # https://dart.dev/tools/linter-rules/avoid_as
     # - avoid_as
 
     # Avoid bool literals in conditional expressions.
-    # https://dart-lang.github.io/linter/lints/avoid_bool_literals_in_conditional_expressions.html
+    # https://dart.dev/tools/linter-rules/avoid_bool_literals_in_conditional_expressions
     - avoid_bool_literals_in_conditional_expressions
 
     # Avoid catches without on clauses.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_catches_without_on_clauses.html
+    # https://dart.dev/tools/linter-rules/avoid_catches_without_on_clauses
     # - avoid_catches_without_on_clauses
 
     # Don't explicitly catch Error or types that implement it.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_catching_errors.html
+    # https://dart.dev/tools/linter-rules/avoid_catching_errors
     - avoid_catching_errors
 
     # Avoid defining a class that contains only static members.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_classes_with_only_static_members.html
+    # https://dart.dev/tools/linter-rules/avoid_classes_with_only_static_members
     # - avoid_classes_with_only_static_members
 
     # Avoid double and int checks.
-    # https://dart-lang.github.io/linter/lints/avoid_double_and_int_checks.html
+    # https://dart.dev/tools/linter-rules/avoid_double_and_int_checks
     # - avoid_double_and_int_checks
 
     # Avoid overloading operator == and hashCode on classes not marked @immutable.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_equals_and_hash_code_on_mutable_classes.html
+    # https://dart.dev/tools/linter-rules/avoid_equals_and_hash_code_on_mutable_classes
     # - avoid_equals_and_hash_code_on_mutable_classes
 
     # Avoid escaping inner quotes by converting surrounding quotes.
-    # https://dart-lang.github.io/linter/lints/avoid_escaping_inner_quotes.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_escaping_inner_quotes
     - avoid_escaping_inner_quotes
 
     # Avoid field initializers in const classes.
-    # https://dart-lang.github.io/linter/lints/avoid_field_initializers_in_const_classes.html
+    # https://dart.dev/tools/linter-rules/avoid_field_initializers_in_const_classes
     # - avoid_field_initializers_in_const_classes
 
+    # Avoid final for parameter declarations.
+    # https://dart.dev/tools/linter-rules/avoid_final_parameters
+    - avoid_final_parameters
+
     # Avoid using forEach with a function literal.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_function_literals_in_foreach_calls.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_function_literals_in_foreach_calls
     # - avoid_function_literals_in_foreach_calls
 
     # Don't implement classes that override ==.
-    # https://dart-lang.github.io/linter/lints/avoid_implementing_value_types.html
+    # https://dart.dev/tools/linter-rules/avoid_implementing_value_types
     - avoid_implementing_value_types
 
     # Don't explicitly initialize variables to null.
-    # [flutter] [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_init_to_null.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_init_to_null
     - avoid_init_to_null
 
     # Avoid JavaScript rounded ints.
-    # https://dart-lang.github.io/linter/lints/avoid_js_rounded_ints.html
+    # https://dart.dev/tools/linter-rules/avoid_js_rounded_ints
     # - avoid_js_rounded_ints
 
+    # Don’t declare multiple variables on a single line.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_multiple_declarations_per_line
+    - avoid_multiple_declarations_per_line
+
     # Don't check for null in custom == operators.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_null_checks_in_equality_operators.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_null_checks_in_equality_operators
     - avoid_null_checks_in_equality_operators
 
     # Avoid positional boolean parameters.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_positional_boolean_parameters.html
+    # https://dart.dev/tools/linter-rules/avoid_positional_boolean_parameters
     - avoid_positional_boolean_parameters
 
     # Avoid private typedef functions.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_private_typedef_functions.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_private_typedef_functions
     # - avoid_private_typedef_functions
 
     # Avoid redundant argument values.
-    # https://dart-lang.github.io/linter/lints/avoid_redundant_argument_values.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_redundant_argument_values
     # - avoid_redundant_argument_values
 
     # Don't rename parameters of overridden methods.
-    # https://dart-lang.github.io/linter/lints/avoid_renaming_method_parameters.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_renaming_method_parameters
     - avoid_renaming_method_parameters
 
     # Avoid return types on setters.
-    # [flutter] [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_return_types_on_setters.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_return_types_on_setters
     - avoid_return_types_on_setters
 
-    # Avoid returning null from members whose return type is bool, double, int, or num.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_returning_null.html
+    # Avoid returning null from members whose return type is bool, double, int, or num. (Deprecated)
+    # https://dart.dev/tools/linter-rules/avoid_returning_null
     # - avoid_returning_null
 
     # Avoid returning null for void.
-    # https://dart-lang.github.io/linter/lints/avoid_returning_null_for_void.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_returning_null_for_void
     - avoid_returning_null_for_void
 
     # Avoid returning this from methods just to enable a fluent interface.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_returning_this.html
+    # https://dart.dev/tools/linter-rules/avoid_returning_this
     # - avoid_returning_this
 
     # Avoid setters without getters.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_setters_without_getters.html
+    # https://dart.dev/tools/linter-rules/avoid_setters_without_getters
     - avoid_setters_without_getters
 
     # Avoid shadowing type parameters.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/avoid_shadowing_type_parameters.html
+    # [core] [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/avoid_shadowing_type_parameters
     - avoid_shadowing_type_parameters
 
+
     # Avoid single cascade in expression statements.
-    # https://dart-lang.github.io/linter/lints/avoid_single_cascade_in_expression_statements.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_single_cascade_in_expression_statements
     # - avoid_single_cascade_in_expression_statements
 
     # Avoid annotating types for function expression parameters.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/avoid_types_on_closure_parameters.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_types_on_closure_parameters
     - avoid_types_on_closure_parameters
 
     # Avoid unnecessary containers.
-    # https://dart-lang.github.io/linter/lints/avoid_unnecessary_containers.html
+    # [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_unnecessary_containers
     - avoid_unnecessary_containers
 
     # Avoid defining unused parameters in constructors.
-    # https://dart-lang.github.io/linter/lints/avoid_unused_constructor_parameters.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_unused_constructor_parameters
     - avoid_unused_constructor_parameters
 
     # Avoid async functions that return void.
-    # https://dart-lang.github.io/linter/lints/avoid_void_async.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/avoid_void_async
     - avoid_void_async
 
     # Await only futures.
-    # [flutter]
-    # https://dart-lang.github.io/linter/lints/await_only_futures.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/await_only_futures
     - await_only_futures
 
     # Name extensions using UpperCamelCase.
