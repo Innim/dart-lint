@@ -427,138 +427,216 @@ linter:
     - await_only_futures
 
     # Name extensions using UpperCamelCase.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/camel_case_extensions.html
+    # [core] [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/camel_case_extensions
     - camel_case_extensions
 
     # Name types using UpperCamelCase.
-    # [flutter] [effective dart]
-    # https://dart-lang.github.io/linter/lints/camel_case_types.html
+    # [core] [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/camel_case_types
     - camel_case_types
 
     # Cascade consecutive method invocations on the same reference.
-    # https://dart-lang.github.io/linter/lints/cascade_invocations.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/cascade_invocations
     # - cascade_invocations
 
-    # Don't cast a nullable value to a non nullable type.
-    # (experimental)
-    # https://dart-lang.github.io/linter/lints/cast_nullable_to_non_nullable.html
-    # - cast_nullable_to_non_nullable
+    # Don’t cast a nullable value to a non nullable type.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/cast_nullable_to_non_nullable
+    - cast_nullable_to_non_nullable
+
+    # Sort combinator names alphabetically.
+    # https://dart.dev/tools/linter-rules/combinators_ordering
+    - combinators_ordering
+
+    # Missing conditional import.
+    # https://dart.dev/tools/linter-rules/conditional_uri_does_not_exist
+    - conditional_uri_does_not_exist
 
     # Prefer using lowerCamelCase for constant names.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/constant_identifier_names.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/constant_identifier_names
     - constant_identifier_names
 
     # DO use curly braces for all flow control structures.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/curly_braces_in_flow_control_structures.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/curly_braces_in_flow_control_structures
     - curly_braces_in_flow_control_structures
 
+    # Attach library doc comments to library directives.
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/dangling_library_doc_comments
+    - dangling_library_doc_comments
+
+    # Missing deprecated annotation.
+    # https://dart.dev/tools/linter-rules/deprecated_consistency
+    - deprecated_consistency
+
     # Adhere to Effective Dart Guide directives sorting conventions.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/directives_ordering.html
-    # - directives_ordering
+    # Has fix
+    # https://dart.dev/tools/linter-rules/directives_ordering
+    - directives_ordering
 
     # Do not use environment declared variables.
-    # https://dart-lang.github.io/linter/lints/do_not_use_environment.html
+    # https://dart.dev/tools/linter-rules/do_not_use_environment
     # - do_not_use_environment
 
     # Avoid empty catch blocks.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/empty_catches.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/empty_catches
     - empty_catches
 
     # Use ; instead of {} for empty constructor bodies.
-    # [flutter] [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/empty_constructor_bodies.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/empty_constructor_bodies
     - empty_constructor_bodies
 
+    # Do use sound null safety. (Removed)
+    # https://dart.dev/tools/linter-rules/enable_null_safety
+    # - enable_null_safety 
+
+    # Put a single newline at end of file.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/eol_at_end_of_file
+    - eol_at_end_of_file
+
     # Define case clauses for all constants in enum-like classes.
-    # https://dart-lang.github.io/linter/lints/exhaustive_cases.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/exhaustive_cases
     - exhaustive_cases
 
     # Name source files using lowercase_with_underscores.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/file_names.html
+    # [core] [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/file_names
     - file_names
 
     # Use Flutter TODO format: // TODO(username): message, https://URL-to-issue.
-    # https://dart-lang.github.io/linter/lints/flutter_style_todos.html
+    # https://dart.dev/tools/linter-rules/flutter_style_todos
     # - flutter_style_todos
 
     # Don't import implementation files from another package.
-    # [flutter] [effective dart]
-    # https://dart-lang.github.io/linter/lints/implementation_imports.html
+    # [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/implementation_imports
     - implementation_imports
 
+    # Explicitly tear-off call methods when using an object as a Function.
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/implicit_call_tearoffs
+    - implicit_call_tearoffs
+
     # Join return statement with assignment when possible.
-    # https://dart-lang.github.io/linter/lints/join_return_with_assignment.html
+    # https://dart.dev/tools/linter-rules/join_return_with_assignment
     - join_return_with_assignment
 
     # Start multiline strings with a newline.
-    # https://dart-lang.github.io/linter/lints/leading_newlines_in_multiline_strings.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/leading_newlines_in_multiline_strings
     - leading_newlines_in_multiline_strings
 
+    # Attach library annotations to library directives.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/library_annotations
+    - library_annotations
+
     # Name libraries using lowercase_with_underscores.
-    # [flutter] [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/library_names.html
+    # [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/library_names
     - library_names
 
     # Use lowercase_with_underscores when specifying a library prefix.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/library_prefixes.html
+    # [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/library_prefixes
     - library_prefixes
 
+    # Avoid using private types in public APIs.
+    # [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/library_private_types_in_public_api
+    - library_private_types_in_public_api
+
     # Avoid lines longer than 80 characters.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/lines_longer_than_80_chars.html
+    # https://dart.dev/tools/linter-rules/lines_longer_than_80_chars
     # - lines_longer_than_80_chars
 
+    # Use matching super parameter names.
+    # https://dart.dev/tools/linter-rules/matching_super_parameters
+    - matching_super_parameters
+
     # Missing whitespace between adjacent strings.
-    # https://dart-lang.github.io/linter/lints/missing_whitespace_between_adjacent_strings.html
+    # https://dart.dev/tools/linter-rules/missing_whitespace_between_adjacent_strings
     - missing_whitespace_between_adjacent_strings
 
-    # No default cases.
-    # (experimental)
-    # https://dart-lang.github.io/linter/lints/no_default_cases.html
+    # No default cases. (Experimental)
+    # https://dart.dev/tools/linter-rules/no_default_cases
     - no_default_cases
 
+    # Avoid leading underscores for library prefixes. 
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/no_leading_underscores_for_library_prefixes
+    - no_leading_underscores_for_library_prefixes
+
+    # Avoid leading underscores for local identifiers.
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/no_leading_underscores_for_local_identifiers
+    - no_leading_underscores_for_local_identifiers
+
+    # Don’t compare booleans to boolean literals.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/no_literal_bool_comparisons
+    - no_literal_bool_comparisons
+
     # Avoid calling toString() on runtimeType.
-    # https://dart-lang.github.io/linter/lints/no_runtimeType_toString.html
+    # https://dart.dev/tools/linter-rules/no_runtimeType_toString
     - no_runtimeType_toString
 
     # Name non-constant identifiers using lowerCamelCase.
-    # [flutter] [effective dart]
-    # https://dart-lang.github.io/linter/lints/non_constant_identifier_names.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/non_constant_identifier_names
     - non_constant_identifier_names
 
+    # Noop primitive operations.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/noop_primitive_operations
+    - noop_primitive_operations
+
     # Don't use null check on a potentially nullable type parameter.
-    # (experimental)
-    # https://dart-lang.github.io/linter/lints/null_check_on_nullable_type_parameter.html
-    # - null_check_on_nullable_type_parameter
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/null_check_on_nullable_type_parameter
+    - null_check_on_nullable_type_parameter
 
     # Do not pass null as an argument where a closure is expected.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/null_closures.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/null_closures
     - null_closures
 
     # Omit type annotations for local variables.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/omit_local_variable_types.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/omit_local_variable_types
     - omit_local_variable_types
 
     # Avoid defining a one-member abstract class when a simple function will do.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/one_member_abstracts.html
+    # https://dart.dev/tools/linter-rules/one_member_abstracts
     # - one_member_abstracts
 
     # Only throw instances of classes extending either Exception or Error.
-    # https://dart-lang.github.io/linter/lints/only_throw_errors.html
+    # https://dart.dev/tools/linter-rules/only_throw_errors
     - only_throw_errors
 
     # Don't override fields.
-    # https://dart-lang.github.io/linter/lints/overridden_fields.html
+    # [recommended]
+    # https://dart.dev/tools/linter-rules/overridden_fields
     - overridden_fields
 
     # Provide doc comments for all public APIs.
