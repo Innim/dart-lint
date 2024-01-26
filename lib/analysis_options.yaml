@@ -640,374 +640,544 @@ linter:
     - overridden_fields
 
     # Provide doc comments for all public APIs.
-    # [flutter] [effective dart]
-    # https://dart-lang.github.io/linter/lints/package_api_docs.html
+    # https://dart.dev/tools/linter-rules/package_api_docs
     # - package_api_docs
 
     # Prefix library names with the package name and a dot-separated path.
-    # [flutter]
-    # https://dart-lang.github.io/linter/lints/package_prefixed_library_names.html
+    # [core] [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/package_prefixed_library_names
     - package_prefixed_library_names
 
     # Don't reassign references to parameters of functions or methods.
-    # https://dart-lang.github.io/linter/lints/parameter_assignments.html
+    # https://dart.dev/tools/linter-rules/parameter_assignments
     - parameter_assignments
 
     # Use adjacent strings to concatenate string literals.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_adjacent_string_concatenation.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_adjacent_string_concatenation
     - prefer_adjacent_string_concatenation
 
     # Prefer putting asserts in initializer list.
-    # https://dart-lang.github.io/linter/lints/prefer_asserts_in_initializer_lists.html
+    # https://dart.dev/tools/linter-rules/prefer_asserts_in_initializer_lists
     - prefer_asserts_in_initializer_lists
 
     # Prefer asserts with message.
-    # https://dart-lang.github.io/linter/lints/prefer_asserts_with_message.html
-    # - prefer_asserts_with_message
+    # https://dart.dev/tools/linter-rules/prefer_asserts_with_message
+    - prefer_asserts_with_message
 
-    # Prefer using a boolean as the assert condition.
-    # https://dart-lang.github.io/linter/lints/prefer_bool_in_asserts.html
+    # Prefer using a boolean as the assert condition. (Removed)
+    # https://dart.dev/tools/linter-rules/prefer_bool_in_asserts
     # (deprecated)
     # - prefer_bool_in_asserts
 
     # Use collection literals when possible.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_collection_literals.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_collection_literals
     - prefer_collection_literals
 
     # Prefer using ??= over testing for null.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/prefer_conditional_assignment.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_conditional_assignment
     - prefer_conditional_assignment
 
     # Prefer const with constant constructors.
-    # https://dart-lang.github.io/linter/lints/prefer_const_constructors.html
+    # [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_const_constructors
     - prefer_const_constructors
 
     # Prefer declaring const constructors on @immutable classes.
-    # https://dart-lang.github.io/linter/lints/prefer_const_constructors_in_immutables.html
+    # [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_const_constructors_in_immutables
     - prefer_const_constructors_in_immutables
 
     # Prefer const over final for declarations.
-    # https://dart-lang.github.io/linter/lints/prefer_const_declarations.html
+    # [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_const_declarations
     - prefer_const_declarations
 
     # Prefer const literals as parameters of constructors on @immutable classes.
-    # https://dart-lang.github.io/linter/lints/prefer_const_literals_to_create_immutables.html
+    # [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_const_literals_to_create_immutables
     - prefer_const_literals_to_create_immutables
 
     # Prefer defining constructors instead of static methods to create instances.
-    # https://dart-lang.github.io/linter/lints/prefer_constructors_over_static_methods.html
+    # https://dart.dev/tools/linter-rules/prefer_constructors_over_static_methods
     # - prefer_constructors_over_static_methods
 
     # Use contains for List and String instances.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/prefer_contains.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_contains
     - prefer_contains
 
     # Prefer double quotes where they won't require escape sequences.
-    # https://dart-lang.github.io/linter/lints/prefer_double_quotes.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_double_quotes
     # - prefer_double_quotes
 
-    # Use = to separate a named parameter from its default value.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html
-    - prefer_equal_for_default_values
+    # Use = to separate a named parameter from its default value. (Removed)
+    # https://dart.dev/tools/linter-rules/prefer_equal_for_default_values
+    # - prefer_equal_for_default_values
 
     # Use => for short members whose body is a single return statement.
-    # https://dart-lang.github.io/linter/lints/prefer_expression_function_bodies.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_expression_function_bodies
     # - prefer_expression_function_bodies
 
     # Private field could be final.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_final_fields.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_final_fields
     - prefer_final_fields
 
     # Prefer final in for-each loop variable if reference is not reassigned.
-    # https://dart-lang.github.io/linter/lints/prefer_final_in_for_each.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_final_in_for_each
     - prefer_final_in_for_each
 
     # Prefer final for variable declarations if they are not reassigned.
-    # https://dart-lang.github.io/linter/lints/prefer_final_locals.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_final_locals
     - prefer_final_locals
 
-    # Prefer for elements when building maps from iterables.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/prefer_for_elements_to_map_fromIterable.html
+    # Prefer final for parameter declarations if they are not reassigned.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_final_parameters
+    # - prefer_final_parameters
+
+    # Prefer ‘for’ elements when building maps from iterables.
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_for_elements_to_map_fromIterable
     - prefer_for_elements_to_map_fromIterable
 
     # Use forEach to only apply a function to all the elements.
-    # https://dart-lang.github.io/linter/lints/prefer_foreach.html
+    # https://dart.dev/tools/linter-rules/prefer_foreach
     # - prefer_foreach
 
     # Use a function declaration to bind a function to a name.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_function_declarations_over_variables.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_function_declarations_over_variables
     - prefer_function_declarations_over_variables
 
     # Prefer generic function type aliases.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_generic_function_type_aliases.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_generic_function_type_aliases
     - prefer_generic_function_type_aliases
 
     # Prefer if elements to conditional expressions where possible.
-    # https://dart-lang.github.io/linter/lints/prefer_if_elements_to_conditional_expressions.html
-    # - prefer_if_elements_to_conditional_expressions
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_if_elements_to_conditional_expressions
+    - prefer_if_elements_to_conditional_expressions 
 
     # Prefer using if null operators.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/prefer_if_null_operators.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_if_null_operators
     - prefer_if_null_operators
 
     # Use initializing formals when possible.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_initializing_formals.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_initializing_formals
     - prefer_initializing_formals
 
     # Inline list item declarations where possible.
-    # https://dart-lang.github.io/linter/lints/prefer_inlined_adds.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_inlined_adds
     - prefer_inlined_adds
 
     # Prefer int literals over double literals.
-    # https://dart-lang.github.io/linter/lints/prefer_int_literals.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_int_literals
     # - prefer_int_literals
 
     # Use interpolation to compose strings and values.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_interpolation_to_compose_strings.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_interpolation_to_compose_strings
     - prefer_interpolation_to_compose_strings
 
     # Use isEmpty for Iterables and Maps.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_is_empty.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_is_empty
     - prefer_is_empty
 
     # Use isNotEmpty for Iterables and Maps.
-    # [flutter] [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_is_not_empty.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_is_not_empty
     - prefer_is_not_empty
 
     # Prefer is! operator.
-    # https://dart-lang.github.io/linter/lints/prefer_is_not_operator.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_is_not_operator
     - prefer_is_not_operator
 
     # Prefer to use whereType on iterable.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_iterable_whereType.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_iterable_whereType
     - prefer_iterable_whereType
 
     # Prefer using mixins.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/prefer_mixin.html
+    # https://dart.dev/tools/linter-rules/prefer_mixin
     - prefer_mixin
 
+    # Prefer null aware method calls.
+    - prefer_null_aware_method_calls
+
     # Prefer using null aware operators.
-    # https://dart-lang.github.io/linter/lints/prefer_null_aware_operators.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_null_aware_method_calls
     - prefer_null_aware_operators
 
     # Only use double quotes for strings containing single quotes.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/prefer_single_quotes.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_single_quotes
     - prefer_single_quotes
 
     # Use spread collections when possible.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/prefer_spread_collections.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_spread_collections
     - prefer_spread_collections
 
     # Prefer typing uninitialized variables and fields.
-    # https://dart-lang.github.io/linter/lints/prefer_typing_uninitialized_variables.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/prefer_typing_uninitialized_variables
     - prefer_typing_uninitialized_variables
 
     # Provide a deprecation message, via @Deprecated("message").
-    # https://dart-lang.github.io/linter/lints/provide_deprecation_message.html
+    # [core] [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/provide_deprecation_message
     - provide_deprecation_message
 
     # Document all public members.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/public_member_api_docs.html
+    # https://dart.dev/tools/linter-rules/public_member_api_docs
     # - public_member_api_docs
 
     # Property getter recursively returns itself.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/recursive_getters.html
+    # [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/recursive_getters
     - recursive_getters
 
+    # Use trailing commas for all function calls and declarations.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/require_trailing_commas
+    - require_trailing_commas
+
     # SizedBox for whitespace.
-    # https://dart-lang.github.io/linter/lints/sized_box_for_whitespace.html
+    # [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/sized_box_for_whitespace
     - sized_box_for_whitespace
 
+    # Use SizedBox shrink and expand named constructors.
+    # https://dart.dev/tools/linter-rules/sized_box_shrink_expand
+    - sized_box_shrink_expand
+
     # Prefer using /// for doc comments.
-    # [flutter] [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/slash_for_doc_comments.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/slash_for_doc_comments
     - slash_for_doc_comments
 
     # Sort child properties last in widget instance creations.
-    # https://dart-lang.github.io/linter/lints/sort_child_properties_last.html
-    # - sort_child_properties_last
+    # [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/sort_child_properties_last
+    - sort_child_properties_last
 
     # Sort constructor declarations before other members.
-    # https://dart-lang.github.io/linter/lints/sort_constructors_first.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/sort_constructors_first
     # - sort_constructors_first
 
     # Sort unnamed constructor declarations first.
-    # https://dart-lang.github.io/linter/lints/sort_unnamed_constructors_first.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/sort_unnamed_constructors_first
     - sort_unnamed_constructors_first
 
-    # Place the super call last in a constructor initialization list.
-    # (deprecated)
-    # https://dart-lang.github.io/linter/lints/super_goes_last.html
+    # Place the super call last in a constructor initialization list. (Removed)
+    # https://dart.dev/tools/linter-rules/super_goes_last
     # - super_goes_last
 
     # Tighten type of initializing formal.
-    # https://dart-lang.github.io/linter/lints/tighten_type_of_initializing_formals.html
-    # - tighten_type_of_initializing_formals
+    # https://dart.dev/tools/linter-rules/tighten_type_of_initializing_formals
+    - tighten_type_of_initializing_formals
 
     # Type annotate public APIs.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/type_annotate_public_apis.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/type_annotate_public_apis
     - type_annotate_public_apis
 
     # Don't type annotate initializing formals.
-    # [flutter] [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/type_init_formals.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/type_init_formals
     - type_init_formals
 
-    # Future results in async function bodies must be awaited or marked unawaited using package:pedantic.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/unawaited_futures.html
+    # Don’t use constant patterns with type literals.
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/type_literal_in_constant_pattern
+    - type_literal_in_constant_pattern
+
+    # Future results in async function bodies must be awaited or marked unawaited using dart:async.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unawaited_futures
     - unawaited_futures
 
     # Unnecessary await keyword in return.
-    # https://dart-lang.github.io/linter/lints/unnecessary_await_in_return.html
+    # https://dart.dev/tools/linter-rules/unnecessary_await_in_return
     - unnecessary_await_in_return
 
     # Avoid using braces in interpolation when not needed.
-    # [flutter] [effective dart]
-    # https://dart-lang.github.io/linter/lints/unnecessary_brace_in_string_interps.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_brace_in_string_interps
     - unnecessary_brace_in_string_interps
 
+    # Don’t use explicit breaks when a break is implied.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_breaks
+    - unnecessary_breaks
+
     # Avoid const keyword.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/unnecessary_const.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_const
     - unnecessary_const
 
+    # Unnecessary .new constructor name.
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_constructor_name
+    - unnecessary_constructor_name
+
     # Don't use final for local variables.
-    # https://dart-lang.github.io/linter/lints/unnecessary_final.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_final
     # - unnecessary_final
 
     # Avoid wrapping fields in getters and setters just to be "safe".
-    # [flutter] [effective dart]
-    # https://dart-lang.github.io/linter/lints/unnecessary_getters_setters.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_getters_setters
     - unnecessary_getters_setters
 
     # Don't create a lambda when a tear-off will do.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/unnecessary_lambdas.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_lambdas
     - unnecessary_lambdas
+    
+    # Don’t specify the late modifier when it is not needed.
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_late
+    - unnecessary_late
+
+    # Avoid library directives unless they have documentation comments or annotations.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_library_directive
+    - unnecessary_library_directive
 
     # Unnecessary new keyword.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/unnecessary_new.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_new
     - unnecessary_new
 
     # Avoid null in null-aware assignment.
-    # https://dart-lang.github.io/linter/lints/unnecessary_null_aware_assignments.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_null_aware_assignments
     - unnecessary_null_aware_assignments
 
-    # Unnecessary null checks.
-    # (experimental)
-    # https://dart-lang.github.io/linter/lints/unnecessary_null_checks.html
-    # - unnecessary_null_checks
+    # Unnecessary null aware operator on extension on a nullable type.
+    # https://dart.dev/tools/linter-rules/unnecessary_null_aware_operator_on_extension_on_nullable
+    - unnecessary_null_aware_operator_on_extension_on_nullable
+    
+    # Unnecessary null checks. (Experimental)
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_null_checks
+    - unnecessary_null_checks
 
     # Avoid using null in if null operators.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/unnecessary_null_in_if_null_operators.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_null_in_if_null_operators
     - unnecessary_null_in_if_null_operators
 
     # Use a non-nullable type for a final variable initialized with a non-nullable value.
-    # https://dart-lang.github.io/linter/lints/unnecessary_nullable_for_final_variable_declarations.html
-    # (experimental)
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_nullable_for_final_variable_declarations
     - unnecessary_nullable_for_final_variable_declarations
 
     # Don't override a method to do a super method invocation with the same parameters.
-    # https://dart-lang.github.io/linter/lints/unnecessary_overrides.html
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_overrides
     - unnecessary_overrides
 
     # Unnecessary parenthesis can be removed.
-    # https://dart-lang.github.io/linter/lints/unnecessary_parenthesis.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_parenthesis
     - unnecessary_parenthesis
 
     # Unnecessary raw string.
-    # https://dart-lang.github.io/linter/lints/unnecessary_raw_strings.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_raw_strings
     - unnecessary_raw_strings
 
     # Remove unnecessary backslashes in strings.
-    # https://dart-lang.github.io/linter/lints/unnecessary_string_escapes.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_string_escapes
     - unnecessary_string_escapes
 
     # Unnecessary string interpolation.
-    # https://dart-lang.github.io/linter/lints/unnecessary_string_interpolations.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_string_interpolations
     - unnecessary_string_interpolations
 
     # Don't access members with this unless avoiding shadowing.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/unnecessary_this.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_this
     - unnecessary_this
 
+    # Unnecessary toList() in spreads.
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unnecessary_to_list_in_spreads
+    - unnecessary_to_list_in_spreads
+
+    # Unreachable top-level members in executable libraries.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/unreachable_from_main
+    - unreachable_from_main
+
+    # Use ColoredBox.
+    # https://dart.dev/tools/linter-rules/use_colored_box
+    - use_colored_box
+
+    # Use DecoratedBox.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/use_decorated_box
+    - use_decorated_box
+
+    # Use enums rather than classes that behave like enums.
+    # Has fix
+    # https://dart.dev/tools/linter-rules/use_enums
+    - use_enums
+
     # Prefer an 8-digit hexadecimal integer(0xFFFFFFFF) to instantiate Color.
-    # https://dart-lang.github.io/linter/lints/use_full_hex_values_for_flutter_colors.html
+    # [flutter]
+    # Has fix
+    # https://dart.dev/tools/linter-rules/use_full_hex_values_for_flutter_colors
     - use_full_hex_values_for_flutter_colors
 
     # Use generic function type syntax for parameters.
-    # [pedantic]
-    # https://dart-lang.github.io/linter/lints/use_function_type_syntax_for_parameters.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/use_function_type_syntax_for_parameters
     - use_function_type_syntax_for_parameters
 
+    # Use if-null operators to convert nulls to bools.
+    # https://dart.dev/tools/linter-rules/use_if_null_to_convert_nulls_to_bools
+    # - use_if_null_to_convert_nulls_to_bools
+
     # Prefer intValue.isOdd/isEven instead of checking the result of % 2.
-    # https://dart-lang.github.io/linter/lints/use_is_even_rather_than_modulo.html
+    # https://dart.dev/tools/linter-rules/use_is_even_rather_than_modulo
     - use_is_even_rather_than_modulo
 
-    # Use late for private members with non-nullable type.
-    # (experimental)
-    # https://dart-lang.github.io/linter/lints/use_late_for_private_fields_and_variables.html
-    # - use_late_for_private_fields_and_variables
+    # Use late for private members with non-nullable type. (Experimental)
+    # https://dart.dev/tools/linter-rules/use_late_for_private_fields_and_variables
+    - use_late_for_private_fields_and_variables
+
+    # Use predefined named constants.
+    # https://dart.dev/tools/linter-rules/use_named_constants
+    - use_named_constants
 
     # Use raw string to avoid escapes.
-    # https://dart-lang.github.io/linter/lints/use_raw_strings.html
+    # Has fix
+    # https://dart.dev/tools/linter-rules/use_raw_strings
     - use_raw_strings
 
     # Use rethrow to rethrow a caught exception.
-    # [pedantic] [effective dart]
-    # https://dart-lang.github.io/linter/lints/use_rethrow_when_possible.html
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/use_rethrow_when_possible
     - use_rethrow_when_possible
 
     # Use a setter for operations that conceptually change a property.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/use_setters_to_change_properties.html
+    # https://dart.dev/tools/linter-rules/use_setters_to_change_properties
     # - use_setters_to_change_properties
 
     # Use string buffers to compose strings.
-    # https://dart-lang.github.io/linter/lints/use_string_buffers.html
+    # https://dart.dev/tools/linter-rules/use_string_buffers
     - use_string_buffers
 
+    # Use string in part of directives.
+    # [core] [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/use_string_in_part_of_directives
+    - use_string_in_part_of_directives
+
+    # Use super-initializer parameters where possible. (Experimental)
+    # [recommended] [flutter] 
+    # Has fix
+    # https://dart.dev/tools/linter-rules/use_super_parameters
+    - use_super_parameters
+
+    # Use throwsA matcher instead of fail().
+    # https://dart.dev/tools/linter-rules/use_test_throws_matchers
+    - use_test_throws_matchers
+
     # Start the name of the method with to/_to or as/_as if applicable.
-    # [effective dart]
-    # https://dart-lang.github.io/linter/lints/use_to_and_as_if_applicable.html
+    # https://dart.dev/tools/linter-rules/use_to_and_as_if_applicable
     - use_to_and_as_if_applicable
 
     # Don't assign to void.
-    # https://dart-lang.github.io/linter/lints/void_checks.html
+    # [core] [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/void_checks
     - void_checks
 
     # Pub Rules
 
+    # Depend on referenced packages.
+    # [core] [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/depend_on_referenced_packages
+    - depend_on_referenced_packages
+
     # Use lowercase_with_underscores for package names.
-    # [flutter]
-    # https://dart-lang.github.io/linter/lints/package_names.html
+    # [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/package_names
     - package_names
 
-    # Sort pub dependencies.
-    # https://dart-lang.github.io/linter/lints/sort_pub_dependencies.html
+    # Use secure urls in pubspec.yaml.
+    # [core] [recommended] [flutter] 
+    # https://dart.dev/tools/linter-rules/secure_pubspec_urls
+    # - secure_pubspec_urls
+
+    # Sort pub dependencies alphabetically.
+    # https://dart.dev/tools/linter-rules/sort_pub_dependencies
     - sort_pub_dependencies
