@@ -777,7 +777,7 @@ linter:
     # Prefer if elements to conditional expressions where possible.
     # Has fix
     # https://dart.dev/tools/linter-rules/prefer_if_elements_to_conditional_expressions
-    - prefer_if_elements_to_conditional_expressions 
+    # - prefer_if_elements_to_conditional_expressions # bad behavior: marks all ternary operator as well
 
     # Prefer using if null operators.
     # [recommended] [flutter] 
