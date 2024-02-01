@@ -37,8 +37,7 @@ linter:
 
     # Avoid method calls or property accesses on a “dynamic” target.
     # https://dart.dev/tools/linter-rules/avoid_dynamic_calls
-    # TODO - avoid_dynamic_calls
-
+    - avoid_dynamic_calls
 
     # Avoid empty else statements.
     # [core] [recommended] [flutter]
