@@ -121,7 +121,7 @@ linter:
     # Don’t invoke asynchronous functions in non-async blocks.
     # Has fix
     # https://dart.dev/tools/linter-rules/discarded_futures
-    # - discarded_futures # TODO: maybe enable this one
+    # - discarded_futures
 
     # Avoid empty statements.
     # [recommended] [flutter]
