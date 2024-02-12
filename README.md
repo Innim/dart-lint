@@ -11,16 +11,11 @@ See [Customizing static analysis](https://dart.dev/guides/language/analysis-opti
 
 ## Usage
 
-To use the lints add a dependency in your `pubspec.yaml`:
+To use the lints add a dev dependency in your `pubspec.yaml`:
 
 ```yaml
-# If you use `unawaited()` in code, add a normal dependency.
-dependencies:
-  innim_lint: ^0.4.0
-
-# Or, if you just want `analysis_options.yaml`, it can be a dev dependency.
 dev_dependencies:
-  innim_lint: ^0.4.0
+  innim_lint: ^0.5.0
 ```
 
 then, add an include in your `analysis_options.yaml`:

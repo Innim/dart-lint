@@ -1,7 +1,12 @@
+## [0.5.0+1]
+
+* README fixes.
+
 ## [0.5.0]
 
 * Updated ruleset.
 * Upgrade to Dart 3.1+.
+* Excluded `lib/firebase_options.dart` by default.
 
 ## [0.4.0]
 
