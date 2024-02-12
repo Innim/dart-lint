@@ -1,9 +1,9 @@
 name: innim_lint
 description: The Dart analyzer settings and linter rules used at Innim for Dart and Flutter projects. Stricter than pedantic.
-version: 0.4.0
+version: 0.5.0
 homepage: https://github.com/innim/
 repository: https://github.com/Innim/dart-lint
 issue_tracker: https://github.com/Innim/dart-lint/issues
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.1.0 <4.0.0"

@@ -1,3 +1,8 @@
+## [0.5.0]
+
+* Updated ruleset.
+* Upgrade to Dart 3.1+.
+
 ## [0.4.0]
 
 * Upgrade to Dart 2.16+.
