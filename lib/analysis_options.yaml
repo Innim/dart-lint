@@ -1180,3 +1180,7 @@ linter:
     # Sort pub dependencies alphabetically.
     # https://dart.dev/tools/linter-rules/sort_pub_dependencies
     - sort_pub_dependencies
+
+# dart format configuration
+formatter:
+  trailing_commas: preserve
