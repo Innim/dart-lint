@@ -1,3 +1,9 @@
+## [0.5.1]
+
+* Upgrade to Dart 3.8+.
+* Added `formatter` section to configure daet format:
+  * `trailing_commas: preserve` - never remove trailing commas (see [Preserve trailing commas](https://github.com/dart-lang/dart_style/wiki/Configuration#preserve-trailing-commas)).
+
 ## [0.5.0+1]
 
 * README fixes.
